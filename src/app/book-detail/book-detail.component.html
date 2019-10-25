@@ -1,0 +1,93 @@
+<div class="container">
+  <div class="row">
+    <div class="col-9">
+      <div class="row">
+        <div class="col-3">
+          <div class="thumb">
+            <img src="{{ book.img }}" alt="{{ book.name }}" width="225px" height="348px">
+          </div>
+        </div>
+        <div class="col-9" style="padding-left: 60px;">
+          <div class="row">
+            <div style="padding-top: 10px;">
+              <h3 style="padding-bottom: 10px;"><b>{{ book.name }}</b></h3>
+              <h6><b>Tác giả</b>: {{ book.author }}</h6>
+              <h6><b>Trạng thái</b>: {{ book.status }}</h6>
+              <h6><b>Thể loại</b>: {{ transferIdtoCategoryName(book.category, categories) }}</h6>
+              <h6><b>Đã đọc</b>: {{ book.readed }}</h6>
+              <h6 style="padding-top: 10px;"><b>Nội dung</b>: {{ book.content }}</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <button class="btn btn-success" data-toggle="modal" data-target="#myModal" style="margin: 0 3px; width: 90px;">Sửa</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <form (submit)="updateBook(book.id, bookName.value, bookAuthor.value, bookImage.value, bookContent.value)">
+                    <div class="modal-content" style="border-radius: 20px;">
+                      <div class="modal-header">
+                        <h4 class="modal-title">Upload truyện</h4>
+                      </div>
+
+                      <div class="modal-body">
+                        <div class="form-group">
+                          <label for="name">Tên truyện: </label>
+                          <input type="text" class="form-control" id="book-name" [value]="book.name" #bookName>
+                        </div>
+                        <div class="form-group">
+                          <label for="author">Tác giả: </label>
+                          <input type="text" class="form-control" id="book-author" [value]="book.author" #bookAuthor>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Trạng thái</label>
+                          <select class="custom-select" id="book-status" [(ngModel)]="selectedStatus" name="selectedStatus">
+                            <option value="Đang tiến hành">Đang tiến hành</option>
+                            <option value="Đã hoàn thành">Đã hoàn thành</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="categories">Thể loại(Nhấn giữ Ctrl để chọn nhiều): </label><br>
+                          <select class="custom-select" [(ngModel)]="selectedCategories" name="selectedCategories"
+                            multiple>
+                            <option *ngFor="let category of categories" [value]="category.id">{{ category.categoryName
+                              }}</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="image">Hình ảnh: </label>
+                          <input type="text" class="form-control" id="book-img" [value]="book.img" #bookImage>
+                        </div>
+                        <div class="form-group">
+                          <label for="content">Nội dung: </label>
+                          <textarea class="form-control" id="book-content" rows="3" [value]="book.content" #bookContent></textarea>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" id="btn-save">Save</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+
+              <button class="btn btn-danger" style="margin: 0 3px;" (click)="deleteBook(book.id)">Xóa</button>
+            </div>
+            <div class="col-2">
+              <button class="btn btn-primary" style="width: 60px;">Đọc</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3"></div>
+  </div>
+</div>

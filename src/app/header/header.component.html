@@ -1,0 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" routerLink="#"><i class="fas fa-book"> PComic</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="allbook/all">Tất cả truyện</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="list-user">Users</a>
+        </li>
+        <li class="nav-item search">
+          <form class="form-inline mt-2 mt-md-0" (submit)="searchBook(search.value)">
+            <input [formControl]="search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"> Tìm kiếm</i></button>
+          </form>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-right">
+        <li class="nav-item" *ngIf="checkLogin">
+          <a class="nav-link" routerLink="user-profile"><i class="fas fa-user-circle"></i> Thông tin người dùng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="sign-up"><i class="fas fa-user-plus"></i> Đăng ký</a>
+        </li>
+        <li class="nav-item" *ngIf="!checkLogin">
+          <a class="nav-link" routerLink="sign-in"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+        </li>
+        <li class="nav-item" *ngIf="checkLogin">
+          <a class="nav-link" routerLink="#"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

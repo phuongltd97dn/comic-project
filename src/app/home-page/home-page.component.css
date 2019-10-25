@@ -1,0 +1,14 @@
+#demo {
+    margin: 30px auto;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#top-viewed, #newest {
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

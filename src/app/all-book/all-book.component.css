@@ -1,0 +1,93 @@
+.container {
+    background-color: white;
+    margin-top: 32px;
+    width: auto;
+    height: auto;
+}
+
+.book-detail {
+    background-color: green;
+    width: 714px;
+    height: 367px;
+    margin: 10px 10px;
+}
+
+.thumb {
+    width: 225px;
+    height: 348px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-uploader {
+    color: #fff;
+    background: #f25757;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    margin: 20px 0 10px 15px;
+    font: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    width: 33.3%;
+    text-align: -webkit-match-parent;
+}
+
+.card {
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-title {
+    color: #18434e;
+    font: 700 13px Arial;
+}
+
+.card-title:hover {
+    color: #de4fcc;
+}
