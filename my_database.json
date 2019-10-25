@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Action"
+    },
+    {
+      "id": 2,
+      "categoryName": "Adventure"
+    },
+    {
+      "id": 3,
+      "categoryName": "Manhua"
+    },
+    {
+      "id": 4,
+      "categoryName": "Manhwa"
+    },
+    {
+      "id": 5,
+      "categoryName": "Manga"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Solo Leveling",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/solo-leveling.jpg",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        1,
+        2,
+        4
+      ],
+      "content": "Theo chân Sung JinWoo trên hành trình từ 'thợ săn kém cỏi' đến 'thợ săn hạng S mạnh nhất thế giới'.",
+      "readed": 0,
+      "dateAccess": 0
+    },
+    {
+      "id": 2,
+      "name": "Yêu Thần Ký",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/yeu-than-ky.jpg",
+      "author": "Đạp Tuyết Động Mạn",
+      "status": "Đang tiến hành",
+      "category": [
+        2,
+        3
+      ],
+      "content": "Yêu Thần Vừa Xuất, Ai Dám Tranh Phong. Yêu Linh Sư Mạnh Nhất Thánh Linh Đại Lục Nhiếp Li, bởi vì một cuốn sách thần bí Yêu Linh Thời Không mà trở về năm 13 tuổi, tu luyện mạnh nhất công pháp, mạnh nhất yêu linh chi lực, đột phá tới võ đạo đỉnh phong...",
+      "readed": 3,
+      "dateAccess": 0
+    },
+    {
+      "id": 3,
+      "name": "Tinh Võ Thần Quyết",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/tinh-vo-than-quyet.jpg",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        3
+      ],
+      "content": "Quyền toái nhật nguyệt, chưởng thôn sơn hà. Đạp nghịch thiên cường giả lộ, mỹ nhân làm bạn, tu luyện tinh võ truyền thừa, chấp chưởng quyền hành bát phương, thành tựu thần vương tối cao. Từ thiếu nữ thiên tài ôn nhu, đáng yêu, quận chúa thân hình nóng bỏng tràn trề đến yêu tộc mỹ nữ thần bí, cao hơn nữa là nữ võ thần trong truyền thuyết tối cao... Một con đường ngộ đạo không tịch mịch, một truyền kỳ đầy sắc thái, hãy cùng PComic đến với tinh võ thần quyết.",
+      "readed": 0,
+      "dateAccess": 0
+    },
+    {
+      "id": 4,
+      "name": "Võ Thần Chúa Tể",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/vo-than-chua-te.jpg",
+      "author": "Đang cập nhật",
+      "status": "Tổng hợp nhiều nguồn",
+      "category": [
+        1,
+        2,
+        3
+      ],
+      "content": "Thiên Vũ đại lục nhất đại truyền kỳ Tần Trần, bởi vì bạn tốt phản bội bất ngờ ngã xuống Võ vực. 300 năm sau, hắn chuyển sinh ở một cái nhận hết ức hiếp vương phủ con riêng trên người, lợi dụng kiếp trước trình độ, ngưng thần công, luyện thần đan, đi ngược lên trời, quật khởi mạnh mẽ, từ đây bước lên một đoạn khiếp sợ đại lục kinh thế lữ trình.",
+      "readed": 1,
+      "dateAccess": 0
+    },
+    {
+      "id": 5,
+      "name": "Đấu Phá Thương Khung",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/dau-pha-thuong-khung.jpg",
+      "author": "Thiên Tằm Thổ Đậu",
+      "status": "Đang tiến hành",
+      "category": [
+        3
+      ],
+      "content": "Hệ Thống Tu Luyện : Đấu Giả, Đấu Sư, Đại Đấu Sư, Đấu Linh, Đấu Vương, Đấu Hoàng, Đấu Tông, Đấu Tôn, Đấu Thánh, Đấu Đế. Hãy Bắt Đầu Từ Tiêu Viêm ! Một thiên tài tu luyện trong phút chốc trở thành phế vật, từ phế vật lại từng bước khẳng định lại chính mình! Hãy cùng bắt đầu cuộc hành trình đó với Đấu Phá Thương Khung.",
+      "readed": 0,
+      "dateAccess": 0
+    },
+    {
+      "id": 6,
+      "name": "The Gamer",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/the-gamer.jpg",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        4
+      ],
+      "content": "Bạn sẽ làm gì khi cuộc sống trở thành 1 trò chơi.",
+      "readed": 2,
+      "dateAccess": 0
+    },
+    {
+      "id": 7,
+      "name": "Tối Cường Phản Sáo Lộ Hệ Thống",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/toi-cuong-phan-sao-lo-he-thong.jpg",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        1,
+        2,
+        3
+      ],
+      "content": "'Người trẻ tuổi, năm đó ta bắt đầu Trang Bức thời điểm, các ngươi còn chỉ là một giọt chất lỏng!' 'Tiên tử, theo tại hạ đi một chuyến, bảo đảm mang ngươi Trang Bức mang ngươi bay, mang ngươi đồng thời khà khà khà!' Người mặc cuồng đồ áo giáp, kiên khiêng nhật viêm đấu bồng. Tay trái Vô Tẫn Chi Nhận, tay phải Tru Tiên Thần Kiếm. Quét ngang Tu Tiên Giới không có địch thủ, liền hỏi một tiếng còn có ai? Trang Bức Như Phong, thường bạn ta thân! Đường dài dài đằng đẵng, Trang Bức làm bạn! Từ Khuyết bước lên một cái Trang Bức con đường, mỗi ngày không phải ở Trang Bức, chính là ở đi Trang Bức trên đường!",
+      "readed": 0,
+      "dateAccess": 0
+    },
+    {
+      "name": "Onepunch-Man",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/one_punch_man___phong_tom.jpg",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        1,
+        5
+      ],
+      "content": "Một thể loại siêu anh hùng...Lol !!!",
+      "readed": 0,
+      "dateAccess": 0,
+      "id": 8
+    },
+    {
+      "name": "One Piece",
+      "img": "https://media.hamtruyen.vn/Pictures/Truyen/Large/one_piece.png",
+      "author": "Đang cập nhật",
+      "status": "Đang tiến hành",
+      "category": [
+        1,
+        2,
+        5
+      ],
+      "content": "Câu chuyện xảy ra khi bọn hải tặc đang thống trị biển cả. Một vài nhóm hải tặc đối chọi lẫn nhau để giành lấy kho báu bí mật của biển cả, One Piece, bị cất giấu bởi tên hải tặc huyền thoại G.Roger. Người có thể đến được con đường biển cả vĩ đại và tìm ra One Piece sẽ được tôn vinh là vua của hải tặc. Một cậu bé rất ngưỡng mộ hải tặc tên là Monkey.D.Luffy , ước mơ của cậu là trờ thành vua hải tặc.",
+      "readed": 4,
+      "dateAccess": 0,
+      "id": 9
+    }
+  ]
+}
